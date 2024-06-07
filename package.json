@@ -1,0 +1,23 @@
+{
+  "name": "drizzle-crash-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.2",
+    "tsx": "^4.7.1",
+    "typescript": "5.4.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "drizzle-orm": "^0.31.1",
+    "postgre": "^0.1.8"
+  }
+}
